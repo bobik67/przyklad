@@ -14,9 +14,6 @@ import java.util.List;
 @RestController
 public class GameController {
 
-	@RestController
-	public class EmployeeController {
-
 		@Autowired
 		GameService gameService;
 
@@ -32,6 +29,5 @@ public class GameController {
 			gameService.insertGame(game);
 		}
 
-	}
 
 }
